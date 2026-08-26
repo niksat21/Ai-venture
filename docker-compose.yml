@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  aegis-gateway-engine:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    networks:
+      - secure-ai-mesh
+
+  prometheus-telemetry:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    networks:
+      - secure-ai-mesh
+
+networks:
+  secure-ai-mesh:
+    driver: bridge
