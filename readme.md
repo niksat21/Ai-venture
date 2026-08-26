@@ -1,4 +1,7 @@
-# AegisAgent-Control | Inline AI Agent Governance & Resilient Gateway
+# AIAgent-Control | Inline AI Agent Governance & Resilient Gateway
+
+<img width="792" height="708" alt="image" src="https://github.com/user-attachments/assets/cc2f0608-ade0-4851-b55c-03617f61726b" />
+
 
 **AIGov-Control** is a model-agnostic, enterprise-grade AI compliance gateway and control plane built on Java 21 and Spring Boot 3. It serves as an architectural blueprint simulating the core telemetry, security interceptors, and asset policy controls found within **AI Control Tower (ai)**.
 
