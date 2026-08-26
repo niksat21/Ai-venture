@@ -31,6 +31,10 @@ mvn clean package
 java -jar target/AIGov-control-1.0.0.jar
 ```
 
+### Sample Execution
+<img width="1561" height="679" alt="image" src="https://github.com/user-attachments/assets/e68ba749-0a9d-45a0-851f-70006ab5bd17" />
+
+
 ## 📈 Real-Time Production Metrics Available
 The system provides production telemetry tracking data directly at `http://localhost:8080/actuator/prometheus`:
 * `ai_gateway_inference_success_total`: Total healthy completions.
